@@ -5,7 +5,7 @@ using System.Text;
 
 public static class EncryptionHelper
 {
-    // You can adjust this depending on performance/security trade-off
+  
     private const int KeySize = 32; // 256 bits
     private const int SaltSize = 16; // 128 bits
     private const int Iterations = 100_000;

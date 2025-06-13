@@ -27,7 +27,7 @@ class Program
                     catch (InvalidOperationException ex)
                     {
                         Console.WriteLine("Error: " + ex.Message);
-                        Environment.Exit(1); // Gracefully exit the app
+                        Environment.Exit(1); 
                     }
                     break;
                 case "3":
